@@ -25,3 +25,11 @@ docker-compose up
 > Caso modifique Dockerfile, rebuilde com ``docker-compose up --build``
 
 > Para acessar o container use ``docker-compose exec app bash`` ou execute os scripts diretamente pelo Docker ``docker-compose exec app php public/arquivo-script.php``
+
+## Anotações
+
+Padrões comportamentais tratam da comunicação e designação da responsabilidade de vários objetos, se comunicando entre si, trocando responsabilidades entre si.
+
+---
+
+- **Strategy** criar um conjunto de classes de mesma interface que encapsulam um algoritmo. Evita criação de *ifs*, pois a classe é passada como parâmetro
