@@ -32,4 +32,5 @@ Padrões comportamentais tratam da comunicação e designação da responsabilid
 
 ---
 
-- **Strategy** criar um conjunto de classes de mesma interface que encapsulam um algoritmo. Evita criação de *ifs*, pois a classe é passada como parâmetro
+- **Strategy** cria um conjunto de classes de mesma interface que encapsulam um algoritmo. Evita criação de *ifs*, pois a classe é passada como parâmetro
+- **Chain of Responsibility** quando a lógica a ser feita é em tempo de execução, diferente da strategy que é simples escolher a classe correta para usar como parâmetro,  podemos "encadear" os ifs que devem ser resolvidos.
