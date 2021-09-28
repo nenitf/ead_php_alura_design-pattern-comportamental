@@ -36,3 +36,4 @@ Padrões comportamentais tratam da comunicação e designação da responsabilid
 - **Chain of Responsibility** quando a lógica a ser feita é em tempo de execução, diferente da strategy que é simples escolher a classe correta para usar como parâmetro,  podemos "encadear" os ifs que devem ser resolvidos
 - **Template Method** cria uma classe abstrata que força implementação de algu(ns) método(s), permite a sobescrita de métodos existentes e cria um método padrão que executa na ordem correta os métodos.
 - **State** mistura de template (definição se métodos obrigatórios ou que podem ser sobescritos) com chain (um estado conhece/retorna o outro)
+- **Command** classe especializada em somente uma tarefa (chamada de services, usecases e commandhandler)
