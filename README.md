@@ -37,3 +37,4 @@ Padrões comportamentais tratam da comunicação e designação da responsabilid
 - **Template Method** cria uma classe abstrata que força implementação de algu(ns) método(s), permite a sobescrita de métodos existentes e cria um método padrão que executa na ordem correta os métodos.
 - **State** mistura de template (definição se métodos obrigatórios ou que podem ser sobescritos) com chain (um estado conhece/retorna o outro)
 - **Command** classe especializada em somente uma tarefa (chamada de services, usecases e commandhandler)
+- **Observer** adiciona "eventos" que implementam uma mesma interface, tornando alguma classe mais extensível. Não faz muito sentido usar com um commnand, talvez com repository, log e etc
