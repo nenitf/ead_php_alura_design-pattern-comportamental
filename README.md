@@ -38,3 +38,4 @@ Padrões comportamentais tratam da comunicação e designação da responsabilid
 - **State** mistura de template (definição se métodos obrigatórios ou que podem ser sobescritos) com chain (um estado conhece/retorna o outro)
 - **Command** classe especializada em somente uma tarefa (chamada de services, usecases e commandhandler)
 - **Observer** adiciona "eventos" que implementam uma mesma interface, tornando alguma classe mais extensível. Não faz muito sentido usar com um commnand, talvez com repository, log e etc
+- **Iterator** cria uma classe que é uma coleção de alguma outra classe. Essa coleção é "percorrível" com `foreach`
